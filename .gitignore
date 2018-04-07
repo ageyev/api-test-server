@@ -4,7 +4,7 @@
 
 # Logs
 # > modified:
-logs
+logs/*
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -223,4 +223,4 @@ Temporary Items
 
 # Additional
 
-!/logs/logs.info
+!/logs/logs.dir.info
