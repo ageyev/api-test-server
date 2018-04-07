@@ -4,8 +4,8 @@
 
 # Logs
 # > modified:
-!logs/
-logs/*
+logs/
+!logs/logs.info
 
 *.log
 npm-debug.log*
