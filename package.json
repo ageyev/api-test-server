@@ -1,6 +1,6 @@
 {
   "name": "http-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple NodeJS server for testing http requests",
   "author": "Viktor Ageyev <ageyev@gmail.com> (https://ageyev.github.io)",
   "private": true,
