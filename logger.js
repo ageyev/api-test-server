@@ -24,7 +24,7 @@ let fileInfoLog = new (winston.transports.DailyRotateFile)(
         level: 'info',
         dirname: './logs',
         filename: '%DATE%.all.log',
-        json: true,
+        json: false,
         datePattern: 'YYYY-MM-DD',
         zippedArchive: true
     }
@@ -36,7 +36,7 @@ let fileErrorLog = new (winston.transports.DailyRotateFile)(
         level: 'error',
         dirname: './logs',
         filename: '%DATE%.errors.log',
-        json: true,
+        json: false,
         datePattern: 'YYYY-MM-DD',
         zippedArchive: true
 
