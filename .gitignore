@@ -4,6 +4,7 @@
 
 # Logs
 # > modified:
+!logs/
 logs/*
 
 *.log
