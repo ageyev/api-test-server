@@ -7,7 +7,7 @@
 
 git add .
 git commit -a -m "update version"
-git tag v0.1.0
+git tag v0.1.1 # see package.json : "version"
 git push origin master --tags
 git push --all
 
