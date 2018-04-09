@@ -224,3 +224,5 @@ Temporary Items
 # Additional
 
 !/logs/logs.dir.info
+db
+!/db/db.dir.info

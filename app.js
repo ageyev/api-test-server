@@ -49,5 +49,6 @@ app.use('/', function (req, res, next) {
 //create node.js http server and listen on port
 let port = 3000;
 log.info('listening on port', port);
+log.info('http://localhost:' + port);
 http.createServer(app).listen(port);
 
